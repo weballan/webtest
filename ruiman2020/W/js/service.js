@@ -1,0 +1,1 @@
+$(document).ready(function(){	$(document).scroll(function(){		var scroH = $(document).scrollTop();		var header =$('#header');		if(scroH > 130){			header.addClass('heade-active');		}else{			header.removeClass('heade-active');		}	});});
